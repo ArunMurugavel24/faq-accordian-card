@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-container {
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 60vh;
+  margin: 20vh auto;
+}
+
+.background {
+  position: absolute;
+  top: -300px;
+  left: -600px;
+}
+
+.image-container {
+  position: absolute;
+}
